@@ -1,0 +1,14 @@
+<html>
+  <h1>search string: {{.Title}}</h1>
+  <div>
+    {{range .Body}}
+      <div>
+        <h3>{{.PlaceName}}</h3>
+        <p>{{.CountryId}}</p>
+        <p>{{.RegionId}}</p>
+        <p>{{.CityId}}</p>
+        <p>{{.CountryName}}</p>
+      </div>
+    {{end}}
+  </div>
+</html>
